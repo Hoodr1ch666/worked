@@ -529,7 +529,7 @@ ul {
 .buy__list::before {
    content: "";
    position: absolute;
-   background-image: url(/img/icon-buy.svg);
+   background-image: url(./img/icon-buy.svg);
    background-repeat: no-repeat;
    width: 16px;
    height: 16px;
