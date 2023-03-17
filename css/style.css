@@ -529,8 +529,8 @@ ul {
 .buy__list::before {
    content: "";
    position: absolute;
-   background-image: url(../img/icon-buy.svg) 0 0 no-repeat;
-
+   background-image: url(../img/icon-buy.svg);
+   background-repeat: no-repeat;
    width: 16px;
    height: 16px;
    top: 4px;
@@ -667,12 +667,14 @@ ul {
 }
 
 @media (max-width: 984px) {
-   .name__btn{
+   .name__btn {
       padding: 16px 46px;
    }
-   .container{
+
+   .container {
       padding: 0 10px;
    }
+
    .footer__content {
       flex-direction: column;
    }
@@ -702,12 +704,15 @@ ul {
       width: 100%;
       align-items: center;
    }
-.footer__line{
-   margin-top: 0;
-}
-.copy{
-   padding-bottom: 20px;
-}
+
+   .footer__line {
+      margin-top: 0;
+   }
+
+   .copy {
+      padding-bottom: 20px;
+   }
+
    .first__text {
       display: none;
    }
